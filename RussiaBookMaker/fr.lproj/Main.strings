@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "LOGIN_BUTTON"; ObjectID = "4yY-mX-Uzq"; */
+"4yY-mX-Uzq.normalTitle" = "Connexion";
+
+/* Class = "UILabel"; text = "LOGIN_TITLE"; ObjectID = "Doy-Vw-LOi"; */
+"Doy-Vw-LOi.text" = "Bienvenue sur RussiaBookmaker";
+
+/* password placeholder */
+"MRg-ml-hwI.placeholder" = "Mot de passe";
+
+/* username placeholder */
+"e9U-Rl-1ZL.placeholder" = "Identifiant";

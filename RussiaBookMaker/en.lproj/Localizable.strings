@@ -1,0 +1,16 @@
+/* 
+  Localisation.strings
+  RussiaBookMaker
+
+  Created by Laurene ASSAYAH on 28/03/2017.
+  Copyright © 2017 Laurene ASSAYAH. All rights reserved.
+*/
+
+/* Common */
+
+
+/* Login */
+"LOGIN_TITLE" = "Bienvenue sur RussiaBookMaker";
+"LOGIN_LABEL" = "Identifiant";
+"LOGIN_PASSWORD_LABEL" = "Mot de passe";
+"LOGIN_BUTTON" = "Connexion";

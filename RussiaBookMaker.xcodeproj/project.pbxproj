@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4256BE6D1E93ECDF003DBC90 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4256BE6C1E93ECDF003DBC90 /* ApiClient.swift */; };
+		42690E331EA8A1FC00EA63A0 /* RBMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42690E321EA8A1FC00EA63A0 /* RBMatch.swift */; };
+		42690E361EA8A81200EA63A0 /* RBKeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42690E351EA8A81200EA63A0 /* RBKeychainHelper.swift */; };
+		427181D81E9E322E00B50448 /* RBRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427181D71E9E322E00B50448 /* RBRankingViewController.swift */; };
+		427181DA1E9E595700B50448 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427181D91E9E595700B50448 /* Constants.swift */; };
+		4274953F1E8D326C00574FD8 /* RBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274953E1E8D326C00574FD8 /* RBUser.swift */; };
+		4287FA7D1E9FAA9500E35209 /* RBMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4287FA7C1E9FAA9500E35209 /* RBMatchViewController.swift */; };
+		42BA77D91E9B89E800C52428 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA77D51E9B89E800C52428 /* home.png */; };
+		42BA77DA1E9B89E800C52428 /* pouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA77D61E9B89E800C52428 /* pouch.png */; };
+		42BA77DB1E9B89E800C52428 /* race-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA77D71E9B89E800C52428 /* race-flag.png */; };
+		42BA77DC1E9B89E800C52428 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BA77D81E9B89E800C52428 /* rank.png */; };
+		42F1D5AE1E8A88A50035E0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1D5AD1E8A88A50035E0EA /* AppDelegate.swift */; };
+		42F1D5B01E8A88A50035E0EA /* RBLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1D5AF1E8A88A50035E0EA /* RBLoginController.swift */; };
+		42F1D5B31E8A88A50035E0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F1D5B11E8A88A50035E0EA /* Main.storyboard */; };
+		42F1D5B51E8A88A50035E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F1D5B41E8A88A50035E0EA /* Assets.xcassets */; };
+		42F1D5B81E8A88A50035E0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F1D5B61E8A88A50035E0EA /* LaunchScreen.storyboard */; };
+		42F1D5C31E8A88A50035E0EA /* RussiaBookMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1D5C21E8A88A50035E0EA /* RussiaBookMakerTests.swift */; };
+		42F1D5CE1E8A88A50035E0EA /* RussiaBookMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F1D5CD1E8A88A50035E0EA /* RussiaBookMakerUITests.swift */; };
+		42F1D5E91E8AB7400035E0EA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F1D5EB1E8AB7400035E0EA /* Localizable.strings */; };
+		5D8CE0C2FA5BD91B8DC36719 /* Pods_RussiaBookMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420B655A26B07CCA0A6ED681 /* Pods_RussiaBookMaker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F1D5BF1E8A88A50035E0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F1D5A21E8A88A50035E0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F1D5A91E8A88A50035E0EA;
+			remoteInfo = RussiaBookMaker;
+		};
+		42F1D5CA1E8A88A50035E0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F1D5A21E8A88A50035E0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F1D5A91E8A88A50035E0EA;
+			remoteInfo = RussiaBookMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420B655A26B07CCA0A6ED681 /* Pods_RussiaBookMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RussiaBookMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4256BE6C1E93ECDF003DBC90 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		42690E321EA8A1FC00EA63A0 /* RBMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBMatch.swift; sourceTree = "<group>"; };
+		42690E351EA8A81200EA63A0 /* RBKeychainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBKeychainHelper.swift; sourceTree = "<group>"; };
+		427181D71E9E322E00B50448 /* RBRankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBRankingViewController.swift; sourceTree = "<group>"; };
+		427181D91E9E595700B50448 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4274953A1E8D04DB00574FD8 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4274953E1E8D326C00574FD8 /* RBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBUser.swift; sourceTree = "<group>"; };
+		4287FA7C1E9FAA9500E35209 /* RBMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBMatchViewController.swift; sourceTree = "<group>"; };
+		42BA77D51E9B89E800C52428 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		42BA77D61E9B89E800C52428 /* pouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pouch.png; sourceTree = "<group>"; };
+		42BA77D71E9B89E800C52428 /* race-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "race-flag.png"; sourceTree = "<group>"; };
+		42BA77D81E9B89E800C52428 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
+		42F1D5AA1E8A88A50035E0EA /* RussiaBookMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussiaBookMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F1D5AD1E8A88A50035E0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42F1D5AF1E8A88A50035E0EA /* RBLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBLoginController.swift; sourceTree = "<group>"; };
+		42F1D5B21E8A88A50035E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F1D5B41E8A88A50035E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F1D5B71E8A88A50035E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42F1D5B91E8A88A50035E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F1D5BE1E8A88A50035E0EA /* RussiaBookMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussiaBookMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F1D5C21E8A88A50035E0EA /* RussiaBookMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussiaBookMakerTests.swift; sourceTree = "<group>"; };
+		42F1D5C41E8A88A50035E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F1D5C91E8A88A50035E0EA /* RussiaBookMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussiaBookMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F1D5CD1E8A88A50035E0EA /* RussiaBookMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussiaBookMakerUITests.swift; sourceTree = "<group>"; };
+		42F1D5CF1E8A88A50035E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F1D5EA1E8AB7400035E0EA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42F1D5EC1E8AB7480035E0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A82178D1A0558560B92E459A /* Pods-RussiaBookMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RussiaBookMaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RussiaBookMaker/Pods-RussiaBookMaker.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C53A22F7B58D66BF3E7D77 /* Pods-RussiaBookMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RussiaBookMaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RussiaBookMaker/Pods-RussiaBookMaker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F1D5A71E8A88A50035E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8CE0C2FA5BD91B8DC36719 /* Pods_RussiaBookMaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5BB1E8A88A50035E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5C61E8A88A50035E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4256BE691E93EAE2003DBC90 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				42F1D5AF1E8A88A50035E0EA /* RBLoginController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4256BE6B1E93ECA4003DBC90 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4256BE6C1E93ECDF003DBC90 /* ApiClient.swift */,
+				427181D91E9E595700B50448 /* Constants.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		42690E341EA8A7FC00EA63A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42690E351EA8A81200EA63A0 /* RBKeychainHelper.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		427181D61E9E31F900B50448 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				427181D71E9E322E00B50448 /* RBRankingViewController.swift */,
+			);
+			name = Ranking;
+			sourceTree = "<group>";
+		};
+		4274953B1E8D2FD300574FD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4274953E1E8D326C00574FD8 /* RBUser.swift */,
+				42690E321EA8A1FC00EA63A0 /* RBMatch.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		427495401E8D40A700574FD8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4287FA7B1E9FAA6A00E35209 /* Match */,
+				427181D61E9E31F900B50448 /* Ranking */,
+				4256BE691E93EAE2003DBC90 /* Login */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		4287FA7B1E9FAA6A00E35209 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				4287FA7C1E9FAA9500E35209 /* RBMatchViewController.swift */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		42F1D5A11E8A88A50035E0EA = {
+			isa = PBXGroup;
+			children = (
+				42F1D5AC1E8A88A50035E0EA /* RussiaBookMaker */,
+				42F1D5C11E8A88A50035E0EA /* RussiaBookMakerTests */,
+				42F1D5CC1E8A88A50035E0EA /* RussiaBookMakerUITests */,
+				42F1D5AB1E8A88A50035E0EA /* Products */,
+				BDC3A4382D6B8D76F5398A23 /* Pods */,
+				4E3784CFD2376E8B8BB1023D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42F1D5AB1E8A88A50035E0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F1D5AA1E8A88A50035E0EA /* RussiaBookMaker.app */,
+				42F1D5BE1E8A88A50035E0EA /* RussiaBookMakerTests.xctest */,
+				42F1D5C91E8A88A50035E0EA /* RussiaBookMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F1D5AC1E8A88A50035E0EA /* RussiaBookMaker */ = {
+			isa = PBXGroup;
+			children = (
+				42690E341EA8A7FC00EA63A0 /* Utils */,
+				4256BE6B1E93ECA4003DBC90 /* Helpers */,
+				427495401E8D40A700574FD8 /* Managers */,
+				4274953B1E8D2FD300574FD8 /* Model */,
+				42F1D5E21E8A96870035E0EA /* Resources */,
+				42F1D5AD1E8A88A50035E0EA /* AppDelegate.swift */,
+				42F1D5B11E8A88A50035E0EA /* Main.storyboard */,
+				42F1D5B41E8A88A50035E0EA /* Assets.xcassets */,
+				42F1D5B61E8A88A50035E0EA /* LaunchScreen.storyboard */,
+				42F1D5B91E8A88A50035E0EA /* Info.plist */,
+			);
+			path = RussiaBookMaker;
+			sourceTree = "<group>";
+		};
+		42F1D5C11E8A88A50035E0EA /* RussiaBookMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F1D5C21E8A88A50035E0EA /* RussiaBookMakerTests.swift */,
+				42F1D5C41E8A88A50035E0EA /* Info.plist */,
+			);
+			path = RussiaBookMakerTests;
+			sourceTree = "<group>";
+		};
+		42F1D5CC1E8A88A50035E0EA /* RussiaBookMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42F1D5CD1E8A88A50035E0EA /* RussiaBookMakerUITests.swift */,
+				42F1D5CF1E8A88A50035E0EA /* Info.plist */,
+			);
+			path = RussiaBookMakerUITests;
+			sourceTree = "<group>";
+		};
+		42F1D5E21E8A96870035E0EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42BA77D51E9B89E800C52428 /* home.png */,
+				42BA77D61E9B89E800C52428 /* pouch.png */,
+				42BA77D71E9B89E800C52428 /* race-flag.png */,
+				42BA77D81E9B89E800C52428 /* rank.png */,
+				42F1D5EB1E8AB7400035E0EA /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4E3784CFD2376E8B8BB1023D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420B655A26B07CCA0A6ED681 /* Pods_RussiaBookMaker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC3A4382D6B8D76F5398A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A82178D1A0558560B92E459A /* Pods-RussiaBookMaker.debug.xcconfig */,
+				E7C53A22F7B58D66BF3E7D77 /* Pods-RussiaBookMaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F1D5A91E8A88A50035E0EA /* RussiaBookMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F1D5D21E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMaker" */;
+			buildPhases = (
+				C735261D5571DAB566E37F62 /* [CP] Check Pods Manifest.lock */,
+				42F1D5A61E8A88A50035E0EA /* Sources */,
+				42F1D5A71E8A88A50035E0EA /* Frameworks */,
+				42F1D5A81E8A88A50035E0EA /* Resources */,
+				968A08415383487322468263 /* [CP] Embed Pods Frameworks */,
+				E109B93693206B78DB249AEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussiaBookMaker;
+			productName = RussiaBookMaker;
+			productReference = 42F1D5AA1E8A88A50035E0EA /* RussiaBookMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F1D5BD1E8A88A50035E0EA /* RussiaBookMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F1D5D51E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMakerTests" */;
+			buildPhases = (
+				42F1D5BA1E8A88A50035E0EA /* Sources */,
+				42F1D5BB1E8A88A50035E0EA /* Frameworks */,
+				42F1D5BC1E8A88A50035E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F1D5C01E8A88A50035E0EA /* PBXTargetDependency */,
+			);
+			name = RussiaBookMakerTests;
+			productName = RussiaBookMakerTests;
+			productReference = 42F1D5BE1E8A88A50035E0EA /* RussiaBookMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42F1D5C81E8A88A50035E0EA /* RussiaBookMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F1D5D81E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMakerUITests" */;
+			buildPhases = (
+				42F1D5C51E8A88A50035E0EA /* Sources */,
+				42F1D5C61E8A88A50035E0EA /* Frameworks */,
+				42F1D5C71E8A88A50035E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F1D5CB1E8A88A50035E0EA /* PBXTargetDependency */,
+			);
+			name = RussiaBookMakerUITests;
+			productName = RussiaBookMakerUITests;
+			productReference = 42F1D5C91E8A88A50035E0EA /* RussiaBookMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F1D5A21E8A88A50035E0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Laurene ASSAYAH";
+				TargetAttributes = {
+					42F1D5A91E8A88A50035E0EA = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					42F1D5BD1E8A88A50035E0EA = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42F1D5A91E8A88A50035E0EA;
+					};
+					42F1D5C81E8A88A50035E0EA = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42F1D5A91E8A88A50035E0EA;
+					};
+				};
+			};
+			buildConfigurationList = 42F1D5A51E8A88A50035E0EA /* Build configuration list for PBXProject "RussiaBookMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 42F1D5A11E8A88A50035E0EA;
+			productRefGroup = 42F1D5AB1E8A88A50035E0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F1D5A91E8A88A50035E0EA /* RussiaBookMaker */,
+				42F1D5BD1E8A88A50035E0EA /* RussiaBookMakerTests */,
+				42F1D5C81E8A88A50035E0EA /* RussiaBookMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F1D5A81E8A88A50035E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F1D5B81E8A88A50035E0EA /* LaunchScreen.storyboard in Resources */,
+				42F1D5B51E8A88A50035E0EA /* Assets.xcassets in Resources */,
+				42BA77DC1E9B89E800C52428 /* rank.png in Resources */,
+				42BA77DB1E9B89E800C52428 /* race-flag.png in Resources */,
+				42BA77D91E9B89E800C52428 /* home.png in Resources */,
+				42F1D5E91E8AB7400035E0EA /* Localizable.strings in Resources */,
+				42F1D5B31E8A88A50035E0EA /* Main.storyboard in Resources */,
+				42BA77DA1E9B89E800C52428 /* pouch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5BC1E8A88A50035E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5C71E8A88A50035E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		968A08415383487322468263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RussiaBookMaker/Pods-RussiaBookMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C735261D5571DAB566E37F62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E109B93693206B78DB249AEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RussiaBookMaker/Pods-RussiaBookMaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F1D5A61E8A88A50035E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274953F1E8D326C00574FD8 /* RBUser.swift in Sources */,
+				42F1D5B01E8A88A50035E0EA /* RBLoginController.swift in Sources */,
+				42F1D5AE1E8A88A50035E0EA /* AppDelegate.swift in Sources */,
+				42690E331EA8A1FC00EA63A0 /* RBMatch.swift in Sources */,
+				42690E361EA8A81200EA63A0 /* RBKeychainHelper.swift in Sources */,
+				427181DA1E9E595700B50448 /* Constants.swift in Sources */,
+				4256BE6D1E93ECDF003DBC90 /* ApiClient.swift in Sources */,
+				4287FA7D1E9FAA9500E35209 /* RBMatchViewController.swift in Sources */,
+				427181D81E9E322E00B50448 /* RBRankingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5BA1E8A88A50035E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F1D5C31E8A88A50035E0EA /* RussiaBookMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F1D5C51E8A88A50035E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F1D5CE1E8A88A50035E0EA /* RussiaBookMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F1D5C01E8A88A50035E0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F1D5A91E8A88A50035E0EA /* RussiaBookMaker */;
+			targetProxy = 42F1D5BF1E8A88A50035E0EA /* PBXContainerItemProxy */;
+		};
+		42F1D5CB1E8A88A50035E0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F1D5A91E8A88A50035E0EA /* RussiaBookMaker */;
+			targetProxy = 42F1D5CA1E8A88A50035E0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F1D5B11E8A88A50035E0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F1D5B21E8A88A50035E0EA /* Base */,
+				4274953A1E8D04DB00574FD8 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F1D5B61E8A88A50035E0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F1D5B71E8A88A50035E0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42F1D5EB1E8AB7400035E0EA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F1D5EA1E8AB7400035E0EA /* fr */,
+				42F1D5EC1E8AB7480035E0EA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F1D5D01E8A88A50035E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F1D5D11E8A88A50035E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F1D5D31E8A88A50035E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82178D1A0558560B92E459A /* Pods-RussiaBookMaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussiaBookMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42F1D5D41E8A88A50035E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C53A22F7B58D66BF3E7D77 /* Pods-RussiaBookMaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussiaBookMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42F1D5D61E8A88A50035E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussiaBookMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussiaBookMaker.app/RussiaBookMaker";
+			};
+			name = Debug;
+		};
+		42F1D5D71E8A88A50035E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussiaBookMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussiaBookMaker.app/RussiaBookMaker";
+			};
+			name = Release;
+		};
+		42F1D5D91E8A88A50035E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RussiaBookMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RussiaBookMaker;
+			};
+			name = Debug;
+		};
+		42F1D5DA1E8A88A50035E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RussiaBookMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.RussiaBookMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RussiaBookMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F1D5A51E8A88A50035E0EA /* Build configuration list for PBXProject "RussiaBookMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F1D5D01E8A88A50035E0EA /* Debug */,
+				42F1D5D11E8A88A50035E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F1D5D21E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F1D5D31E8A88A50035E0EA /* Debug */,
+				42F1D5D41E8A88A50035E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F1D5D51E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F1D5D61E8A88A50035E0EA /* Debug */,
+				42F1D5D71E8A88A50035E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F1D5D81E8A88A50035E0EA /* Build configuration list for PBXNativeTarget "RussiaBookMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F1D5D91E8A88A50035E0EA /* Debug */,
+				42F1D5DA1E8A88A50035E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F1D5A21E8A88A50035E0EA /* Project object */;
+}
